@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Atxy2k.CustomTextField.RestrictedTextField"/>
+    <fullyQualifiedTypeName name="cep.Sobre"/>
+    <fullyQualifiedTypeName name="java.awt.Desktop"/>
+    <fullyQualifiedTypeName name="java.lang.StackTraceElement"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="org.dom4j.io.SAXReader"/>
+    <fullyQualifiedTypeName name="javax.swing.text.Document"/>
+    <fullyQualifiedTypeName name="org.dom4j.Element"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+</qualifiedTypeNameHistroy>

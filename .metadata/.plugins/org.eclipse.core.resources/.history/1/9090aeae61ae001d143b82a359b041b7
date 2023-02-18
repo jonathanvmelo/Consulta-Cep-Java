@@ -1,0 +1,78 @@
+package cep;
+
+import java.awt.EventQueue;
+
+import javax.swing.JDialog;
+import java.awt.Toolkit;
+import javax.swing.JScrollPane;
+import javax.swing.JLabel;
+import java.awt.SystemColor;
+import javax.swing.JButton;
+import javax.swing.ImageIcon;
+import java.awt.Color;
+
+public class Sobre extends JDialog {
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Sobre dialog = new Sobre();
+					dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+					dialog.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the dialog.
+	 */
+	public Sobre() {
+		getContentPane().setForeground(SystemColor.textHighlight);
+		setResizable(false);
+		setTitle("Sobre");
+		setIconImage(Toolkit.getDefaultToolkit().getImage(Sobre.class.getResource("/img/home.png")));
+		setBounds(100, 100, 450, 300);
+		getContentPane().setLayout(null);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(0, 0, 2, 2);
+		getContentPane().add(scrollPane);
+		
+		JLabel lblNewLabel = new JLabel("Buscar CEP");
+		lblNewLabel.setBounds(41, 45, 306, 14);
+		getContentPane().add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("@Autor: Jonathan Volpato de Melo");
+		lblNewLabel_1.setBounds(41, 83, 250, 14);
+		getContentPane().add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("WEB Service:");
+		lblNewLabel_2.setBounds(41, 126, 72, 14);
+		getContentPane().add(lblNewLabel_2);
+		
+		JLabel lblNewLabel_3 = new JLabel("viacep.com.br");
+		lblNewLabel_3.setForeground(SystemColor.textHighlight);
+		lblNewLabel_3.setBounds(110, 126, 92, 14);
+		getContentPane().add(lblNewLabel_3);
+		
+		JButton btnNewButton = new JButton("");
+		btnNewButton.setIcon(new ImageIcon(Sobre.class.getResource("/img/linkedin.png")));
+		btnNewButton.setBorder(null);
+		btnNewButton.setBounds(41, 196, 48, 48);
+		getContentPane().add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("");
+		btnNewButton_1.setBackground(Color.WHITE);
+		btnNewButton_1.setIcon(new ImageIcon(Sobre.class.getResource("/img/github.png")));
+		btnNewButton_1.setBounds(161, 196, 48, 48);
+		getContentPane().add(btnNewButton_1);
+
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.icon.ImagePropertyEditor$ImageDialog">
+		<item key="x" value="864"/>
+		<item key="y" value="303"/>
+		<item key="width" value="881"/>
+		<item key="height" value="559"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.border.BorderDialog">
+		<item key="x" value="1095"/>
+		<item key="y" value="342"/>
+		<item key="width" value="482"/>
+		<item key="height" value="481"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.icon.IconPropertyEditor$ImageDialog">
+		<item key="x" value="895"/>
+		<item key="y" value="293"/>
+		<item key="width" value="881"/>
+		<item key="height" value="580"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.models.combo.ComboBoxModelDialog">
+		<item key="x" value="1098"/>
+		<item key="y" value="400"/>
+		<item key="width" value="476"/>
+		<item key="height" value="365"/>
+	</section>
+</section>
